@@ -1,0 +1,10 @@
+  spring:
+    application:
+      name: transaction
+    cloud:
+      config:
+        enabled: true
+        uri: http://localhost:8081
+    data:
+      mongodb:
+        uri: mongodb://34.70.72.213:27017/bootcamp
